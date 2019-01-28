@@ -1,0 +1,27 @@
+trouver une data base des allergies
+
+trouver le moyen de convertir xml en csv
+
+creer une base de données de recette
+
+identité visuelle de l'appli
+
+recuperer toutes les photos des aliments + recettes
+
+créer les tables de jointures
+
+MVC
+
+trouver une API notation des recettes
+
+Home :   recettes du jour ; 
+
+Sidebar : avec selection aliments (filtres) + (maladies)bouton envoyé (ajax)
+
+page : A propos 
+
+page : ajouter vos recettes
+
+page : formulaire de contact
+
+
