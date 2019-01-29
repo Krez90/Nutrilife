@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic" id="Calque_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="335.585px"
+	 height="165.104px" viewBox="0 0 335.585 165.104" xml:space="preserve">
+<rect x="-92.906" y="5.23" fill="none" width="465.881" height="71.764"/>
+<text transform="matrix(1 0 0 1 1.3711 67.1392)" fill="#468F98" font-family="'FuturaBT-Light'" font-size="82" letter-spacing="2">Pharma</text>
+<text transform="matrix(1 0 0 1 239.7666 108.4175)" font-family="'FuturaBT-Light'" font-size="66" letter-spacing="2">net</text>
+<g>
+	
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="330.807" y1="120.713" x2="235.229" y2="120.713"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="235.229" y1="120.713" x2="196.997" y2="162.13"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="196.997" y1="162.13" x2="167.262" y2="126.023"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="167.262" y1="126.023" x2="83.365" y2="126.023"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="83.365" y1="126.023" x2="70.669" y2="96.288"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="70.669" y1="96.288" x2="55.754" y2="126.023"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="55.754" y1="126.023" x2="4.779" y2="126.023"/>
+	<circle opacity="0.7" fill="#468F98" cx="70.668" cy="98.093" r="4.778"/>
+	<circle opacity="0.7" fill="#468F98" cx="198.165" cy="160.325" r="4.779"/>
+	<circle opacity="0.9" fill="#468F98" cx="55.754" cy="125.12" r="4.779"/>
+	<circle opacity="0.4" fill="#468F98" cx="167.261" cy="126.023" r="4.779"/>
+	<circle opacity="0.4" cx="84.268" cy="125.12" r="4.779"/>
+	<circle opacity="0.7" cx="4.779" cy="125.12" r="4.779"/>
+	<circle opacity="0.7" cx="235.229" cy="120.713" r="4.779"/>
+	<circle opacity="0.7" cx="330.806" cy="120.713" r="4.779"/>
+</g>
+</svg>
