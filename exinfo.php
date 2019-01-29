@@ -2,8 +2,8 @@
 //Renommez ce fichier en info.php, avec vos informations personnelles.
 
 $host = "localhost";
-$dbname = "dbname;charset=utf8";
+$dbname = "data;charset=utf8";
 $user = "root";
 $pass = "";
 
-$base_url = "localhost/transferwe/";
+$base_url = "localhost/data/";
