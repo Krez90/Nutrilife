@@ -13,10 +13,58 @@
     <!-- Additional CSS Themes file - not required-->
     <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css"> 
     <title>Document</title>
+    <script type = "text/javascript"></script>
 </head>
 <body>
     <!-- <input id="basics" /> -->
-    <input id="provider-json" />
+
+    <input id="provider-json" onclick="submit"/> 
+     
     <script src="public/js/search.js"></script>
+    <!-- recuperer l id sur l api -->
+    <?php 
+    $curl = curl_init();
+    $url = "http://www.omdbapi.com/?s=".urlencode($movie['vbtitre'])."&apikey=aa168fab";
+    curl_setopt_array($curl, array(
+    CURLOPT_URL => $url,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_TIMEOUT => 30,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "GET",
+    CURLOPT_HTTPHEADER => array(
+        "cache-control: no-cache"
+    ),
+    ));
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+    curl_close($curl);
+
+    $response = json_decode($response, true); //because of true, it's in an array
+   
+
+    // afficher la reponse depuis l api
+
+    $curl = curl_init();
+    $url = "http://www.omdbapi.com/?i=". $response['Search'][0]['imdbID']."&apikey=aa168fab";
+    curl_setopt_array($curl, array(
+    CURLOPT_URL => $url,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_TIMEOUT => 30,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "GET",
+    CURLOPT_HTTPHEADER => array(
+        "cache-control: no-cache"
+    ),
+    ));
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+    curl_close($curl);
+
+    $response = json_decode($response, true); //because of true, it's in an array
+    echo $response['Ratings'][0]['Value']."<br>";
+    ?>
+
+    
+
 </body>
 </html>
