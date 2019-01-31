@@ -110,6 +110,10 @@ img {
     border-style: none
 }
 
+.containerrs{
+    margin-top:20%;
+}
+
 svg:not(:root) {
     overflow: hidden
 }
@@ -163,6 +167,7 @@ progress {
 textarea {
     overflow: auto
 }
+
 
 [type="checkbox"], [type="radio"] {
     box-sizing: border-box;
