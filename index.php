@@ -53,7 +53,7 @@
 				</div>
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="pharmanetlogo.svg"></h1>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.svg"></h1>
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input class="champ" type="text" value=""/>
