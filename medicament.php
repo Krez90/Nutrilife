@@ -14,30 +14,4 @@
         // close curl resource to free up system resources
         curl_close($ch);
         
-        echo $output;
-
-//         public function getSideEffectsFromCIS($cis) {
-// 		echo $cis."<br>";
-// 		$url = "http://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?specid=".$cis."&typedoc=R";
-// 		$html = file_get_html($url);
-// 		$sideEffect = "Aucun";
-// 		if($html && isset($html->find('#textDocument')[0])) {
-// 			$response = $html->find('#textDocument')[0]->children;
-// 			$allowNext = false;
-// 			$sideEffect = "";
-// 			foreach ($response as $element) {
-// 				if($allowNext) {
-// 					if($element->class === "AmmAnnexeTitre2") {
-// 						$allowNext = false;
-// 						break;
-// 					}
-// 					$sideEffect .= $element->plaintext."<br />";
-// 				}
-// 				if($element->class === "AmmAnnexeTitre2" && isset($element->children[0]) && $element->children[0]->attr['name'] === "RcpEffetsIndesirables") {
-// 					$allowNext = true;
-// 				}
-// 			}
-// 		}
-// 		return $sideEffect;
-// 	}
-// }
+        echo strip_tags($output);

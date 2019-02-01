@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
+      <!-- jQuery CDN -->
+      <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- JS file -->
+    <script src="EA_search/jquery.easy-autocomplete.min.js"></script> 
+    <!-- CSS file -->
+    <link rel="stylesheet" href="EA_search/easy-autocomplete.min.css"> 
+    <!-- Additional CSS Themes file - not required-->
+    <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css">
+    <script type = "text/javascript"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed">
@@ -55,15 +63,16 @@
                         <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.svg"></h1>
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
-                        <input class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px;" type="text" value=""/>
-                            <a class="button button-primary button-shadow" href="#">Recherche</a>
+                        <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
+                        <div id="nom"></div>
+                        <div id="description"></div>
+                        <div id="prix"></div>
                         </div>
 
                     </div>
                 </div>
-
                 <div class="containerrs">
-                <img src="feuille.jpg" style="margin-top:35px;">
+                <img src="public/images/feuille.jpg" style="margin-top:35px;">
                 </div>
             </section>
             <section class="features section text-center">
@@ -133,19 +142,7 @@
             </div>
         </footer>
     </div>
-    <script src="dist/js/main.min.js"></script>
+
+    <script src="search.js"></script>
 </body>
 </html>
-<?php 
-
-if (isset($_GET['page']) && !empty($_GET['page'])) {
-
-$page=$_GET['page'];
-
-}else {
-	$page='Home';
-}
-
-$page = ucfirst($page);
-
-include('controllers/'.$page.'Controller.php');
