@@ -40,7 +40,6 @@
                 </div>
             </div>
         </header>
-
         <main>
             <section class="hero text-center">
 				<div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
@@ -56,11 +55,15 @@
                         <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.svg"></h1>
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
-                        <input class="champ" type="text" value=""/>
+                        <input class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px;" type="text" value=""/>
                             <a class="button button-primary button-shadow" href="#">Recherche</a>
                         </div>
 
                     </div>
+                </div>
+
+                <div class="containerrs">
+                <img src="feuille.jpg" style="margin-top:35px;">
                 </div>
             </section>
             <section class="features section text-center">
@@ -79,7 +82,7 @@
 										</svg>
                                     </div>
                                     <h3 class="feature-title mt-24">A propos</h3>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <p class="text-sm">Projet fait par une équipe jeune, motivée et dynamique afin de simplifier la recherche par médicaments.</p>
                                 </div>
                             </div>
                             <div class="feature">
