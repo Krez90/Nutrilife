@@ -16,8 +16,9 @@ var options = {
 						var responseJson = $.parseJSON(response);
 						$("#nom").text(responseJson.denomination);
 						$("#prescription").html(responseJson.indicationsTherapeutiques);
-						$("#prix").text(responseJson.presentations[0].prix == null ? "Prix libre" : responseJson.presentations[0].prix);
-						$("#taux").text(responseJson.presentations[0].tauxRemboursement[0]);
+						$("#prix"). text(responseJson.presentations[0].prix == null ? "libre" : responseJson.presentations[0].prix);
+						$("#taux").text(responseJson.presentations[0].tauxRemboursement.length == 0 ? "Non remboursé" : responseJson.presentations[0].tauxRemboursement);
+						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné" : responseJson.presentations[0].indicationsRemboursement);
 					
 					}
 			 });
