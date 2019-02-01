@@ -1,9 +1,10 @@
-<?php
 
+<?php
+        // create curl resource
         $ch = curl_init();
 
         // set url
-        curl_setopt($ch, CURLOPT_URL, "https://www.open-medicaments.fr/api/v1/medicaments?query=".$_GET['search']);
+        curl_setopt($ch, CURLOPT_URL, "https://www.open-medicaments.fr/api/v1/medicaments/".$_REQUEST['id']);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
         //return the transfer as a string
@@ -14,4 +15,4 @@
         // close curl resource to free up system resources
         curl_close($ch);
         
-        echo $output;
+        echo strip_tags($output);
