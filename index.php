@@ -64,14 +64,15 @@
 				</div>
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.svg"></h1>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.png"></h1>
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div id="nom"></div>
-                        <div class="prescription"id="medocstyle">Préscription :<div id="prescription"></div></div>
-                        <div id="taux"id="medocstyle"></div>
-                        <div class="prix"id="medocstyle"> Prix :<div id="prix"></div></div>
+                        <div id="nom"id="medocstyle"></div>
+                        <div class="prescription"id="medocstyle">Indications thérapeutiques<div id="prescription"></div></div>
+                        <div class="price"id="medocstyle">Prix :<div id="prix"></div></div>
+                        <div id="taux"></div>
+                        <div id="indicremboursement"></div>
                         </div>
 
                     </div>
@@ -95,6 +96,7 @@
 										    </g>
 										</svg>
                                     </div>
+                                    <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
                                     <p class="text-sm">Projet fait par une équipe jeune, motivée et dynamique afin de simplifier la recherche par médicaments.</p>
                                 </div>
@@ -110,6 +112,7 @@
 										    </g>
 										</svg>
                                     </div>
+                                    <img src="public/images/email.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
                                     <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
                                 	</div>
