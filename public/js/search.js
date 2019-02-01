@@ -1,27 +1,26 @@
-// var options = {
-// 	data: ["blue", "green", "pink", "red", "yellow"]
-// };
-
-// $("#basics").easyAutocomplete(options);
-
 var options = {
 	url: function(phrase) {
 		return "searchMedicament.php?search="+phrase;
 	},
-	
-
-	// getValue: "denomination",
-
-	// list: {
-	// 	match: {
-	// 		enabled: true
-	// 	}
-	// }
-
+ 
 	getValue: function(element) {
 		return element.denomination;
-	  },
+		},
+		list:{
+			onClickEvent :function(event){
+					var data = $("#provider-json").getSelectedItemData();
+				$.ajax({
+					url: 'medicament.php?id=' + data.codeCIS,
+					success: function (response) {//response is value returned from php (for your example it's "bye bye"
+						var responseJson = $.parseJSON(response);
+						$("#nom").text(responseJson.denomination);
+						$("#description").text(responseJson.indicationsTherapeutiques);
+						$("#prix").text(responseJson.presentations[0].prix == null ? "Non renseigné" : responseJson.presentations[0].prix);
+					}
+			 });
 
+			}
+		},
 	ajaxSettings: {
 		dataType: "json",
 		method: "POST",

@@ -18,10 +18,16 @@
 <body>
     <!-- <input id="basics" /> -->
 
-    <input id="provider-json" onclick="submit"/> 
-     
+    <input id="provider-json"/> 
     <script src="public/js/search.js"></script>
-    <!-- recuperer l id sur l api -->
+    <div id="nom"></div>
+    <div id="description"></div>
+    <div id="prix"></div>
+
+
+
+
+    <!-- recuperer l id sur l api
     <?php 
     $curl = curl_init();
     $url = "http://www.omdbapi.com/?s=".urlencode($movie['vbtitre'])."&apikey=aa168fab";
@@ -62,8 +68,7 @@
 
     $response = json_decode($response, true); //because of true, it's in an array
     echo $response['Ratings'][0]['Value']."<br>";
-    ?>
-
+    ?> -->
     
 
 </body>
