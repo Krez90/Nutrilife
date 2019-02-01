@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
-    <link rel="stylesheet" href="src/scss/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
       <!-- jQuery CDN -->
       <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- JS file -->
@@ -76,10 +75,8 @@
 
                     </div>
                 </div>
-                   
-
                 <div class="containerrs">
-                <img src="feuille.jpg" style="margin-top:35px;">
+                <img src="public/images/feuille.jpg" style="margin-top:35px;">
                 </div>
             </section>
             <section class="features section text-center">
@@ -150,20 +147,6 @@
         </footer>
     </div>
 
-    <script src="public/js/search.js"></script>
-    <script src="dist/js/main.min.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
-<?php 
-
-if (isset($_GET['page']) && !empty($_GET['page'])) {
-
-$page=$_GET['page'];
-
-}else {
-	$page='Home';
-}
-
-$page = ucfirst($page);
-
-include('controllers/'.$page.'Controller.php');

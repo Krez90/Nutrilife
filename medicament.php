@@ -15,4 +15,4 @@
         // close curl resource to free up system resources
         curl_close($ch);
         
-        echo $output;
+        echo strip_tags($output);
