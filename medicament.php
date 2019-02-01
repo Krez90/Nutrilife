@@ -1,4 +1,3 @@
-
 <?php
         // create curl resource
         $ch = curl_init();
@@ -15,4 +14,4 @@
         // close curl resource to free up system resources
         curl_close($ch);
         
-        echo strip_tags($output);
+        echo $output;
