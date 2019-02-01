@@ -80,8 +80,6 @@ small {
     font-size: 80%
 }
 
-
-
 sub, sup {
     font-size: 75%;
     line-height: 0;
@@ -108,10 +106,6 @@ audio:not([controls]) {
 
 img {
     border-style: none
-}
-
-.containerrs{
-    margin-top:20%;
 }
 
 svg:not(:root) {
@@ -167,7 +161,6 @@ progress {
 textarea {
     overflow: auto
 }
-
 
 [type="checkbox"], [type="radio"] {
     box-sizing: border-box;
@@ -238,7 +231,8 @@ hr {
 ul, ol {
     margin-top: 0;
     margin-bottom: 24px;
-    padding-left: 24px
+    padding-left: 24px;
+    display:none;
 }
 
 ul {
