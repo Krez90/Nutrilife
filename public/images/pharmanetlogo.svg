@@ -1,28 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
-<svg version="1.1" baseProfile="basic" id="Calque_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="335.585px"
-	 height="165.104px" viewBox="0 0 335.585 165.104" xml:space="preserve">
-<rect x="-92.906" y="5.23" fill="none" width="465.881" height="71.764"/>
-<text transform="matrix(1 0 0 1 1.3711 67.1392)" fill="#468F98" font-family="'FuturaBT-Light'" font-size="82" letter-spacing="2">Pharma</text>
-<text transform="matrix(1 0 0 1 239.7666 108.4175)" font-family="'FuturaBT-Light'" font-size="66" letter-spacing="2">net</text>
-<g>
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="409.44px" height="191.52px" viewBox="0 0 409.44 191.52" xml:space="preserve">
+<g id="Calque_1_xA0_Image_1_">
 	
-		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="330.807" y1="120.713" x2="235.229" y2="120.713"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="235.229" y1="120.713" x2="196.997" y2="162.13"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="196.997" y1="162.13" x2="167.262" y2="126.023"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="167.262" y1="126.023" x2="83.365" y2="126.023"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="83.365" y1="126.023" x2="70.669" y2="96.288"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="70.669" y1="96.288" x2="55.754" y2="126.023"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="55.754" y1="126.023" x2="4.779" y2="126.023"/>
-	<circle opacity="0.7" fill="#468F98" cx="70.668" cy="98.093" r="4.778"/>
-	<circle opacity="0.7" fill="#468F98" cx="198.165" cy="160.325" r="4.779"/>
-	<circle opacity="0.9" fill="#468F98" cx="55.754" cy="125.12" r="4.779"/>
-	<circle opacity="0.4" fill="#468F98" cx="167.261" cy="126.023" r="4.779"/>
-	<circle opacity="0.4" cx="84.268" cy="125.12" r="4.779"/>
-	<circle opacity="0.7" cx="4.779" cy="125.12" r="4.779"/>
-	<circle opacity="0.7" cx="235.229" cy="120.713" r="4.779"/>
-	<circle opacity="0.7" cx="330.806" cy="120.713" r="4.779"/>
+		<image overflow="visible" width="343" height="172" id="Calque_1_xA0_Image" xlink:href="31FC0DC2.png"  transform="matrix(0.2541 0 0 0.2541 263.6006 96.48)">
+	</image>
+</g>
+<g id="Forme_1_1_">
+</g>
+<g id="Forme_2_1_">
+</g>
+<g id="Forme_3_1_">
+</g>
+<g id="Forme_4_1_">
+</g>
+<g id="Forme_5_1_">
+</g>
+<g id="Forme_6_1_">
+</g>
+<g id="Forme_7_1_">
+	<g>
+		<circle fill="#00BFD3" cx="22.332" cy="115.271" r="3.426"/>
+		<path opacity="0.5" fill="#00B4E2" d="M226.316,113.313c0,1.893-1.535,3.427-3.424,3.427c-1.895,0-3.429-1.534-3.429-3.427
+			s1.534-3.427,3.429-3.427C224.781,109.886,226.316,111.42,226.316,113.313z"/>
+		<circle fill="#00CCC2" cx="115.46" cy="102.588" r="2.129"/>
+		<g>
+			<circle fill="#00BFD3" cx="347.635" cy="145.41" r="3.426"/>
+			<g>
+				<circle opacity="0.6" fill="#231F20" cx="243.524" cy="177.103" r="3.427"/>
+				<g>
+					<g id="Forme_1">
+						<rect x="22.332" y="115.025" fill="#434343" width="81.574" height="0.49"/>
+					</g>
+					<g>
+						<g id="Forme_2">
+							
+								<rect x="100.836" y="108.595" transform="matrix(0.6712 -0.7413 0.7413 0.6712 -44.6373 117.0409)" fill="#434343" width="17.571" height="0.49"/>
+						</g>
+						<g>
+							<g id="Forme_3">
+								
+									<rect x="120.588" y="100.096" transform="matrix(0.7286 -0.6849 0.6849 0.7286 -41.4208 112.1686)" fill="#434343" width="0.492" height="16.514"/>
+							</g>
+							<g>
+								<g id="Forme_4">
+									
+										<rect x="126.324" y="113.681" transform="matrix(1 -0.0076 0.0076 1 -0.8636 1.3347)" fill="#434343" width="96.566" height="0.492"/>
+								</g>
+								<g>
+									<g id="Forme_5">
+										
+											<rect x="232.725" y="111.757" transform="matrix(0.9508 -0.3097 0.3097 0.9508 -33.5145 79.2819)" fill="#434343" width="0.492" height="66.901"/>
+									</g>
+									<g>
+										<g id="Forme_6">
+											
+												<rect x="234.518" y="160.9" transform="matrix(0.5398 -0.8418 0.8418 0.5398 -18.9267 287.6707)" fill="#434343" width="38.238" height="0.491"/>
+										</g>
+										<g id="Forme_7_3_">
+											<rect x="263.849" y="144.919" fill="#434343" width="83.786" height="0.491"/>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Calque_2_xA0_Image_1_">
+	
+		<image overflow="visible" width="1097" height="266" id="Calque_2_xA0_Image" xlink:href="31FC0DC6.png"  transform="matrix(0.24 0 0 0.24 25.4404 35.7598)">
+	</image>
 </g>
 </svg>
