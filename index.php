@@ -64,11 +64,10 @@
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div class="denomination" id="medocsytle"> Dénomination :<div id="nom"></div></div>
-                        <div class="prescription"id="medocstyle">Préscription :<div id="description"></div></div>
+                        <div id="nom"></div>
+                        <div class="prescription"id="medocstyle">Préscription :<div id="prescription"></div></div>
                         <div id="taux"id="medocstyle"></div>
                         <div class="prix"id="medocstyle"> Prix :<div id="prix"></div></div>
-                        
                         </div>
 
                     </div>

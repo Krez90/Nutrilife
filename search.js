@@ -1,4 +1,3 @@
-
 var options = {
 	url: function(phrase) {
 		return "searchMedicament.php?search="+phrase;
@@ -12,17 +11,21 @@ var options = {
 					var data = $("#provider-json").getSelectedItemData();
 				$.ajax({
 					url: 'medicament.php?id=' + data.codeCIS,
+					dataType: "html",
 					success: function (response) {//response is value returned from php (for your example it's "bye bye"
 						var responseJson = $.parseJSON(response);
 						$("#nom").text(responseJson.denomination);
-						$("#description").text(responseJson.indicationsTherapeutiques);
+						$("#prescription").html(responseJson.indicationsTherapeutiques);
 						$("#prix").text(responseJson.presentations[0].prix == null ? "Prix libre" : responseJson.presentations[0].prix);
 						$("#taux").text(responseJson.presentations[0].tauxRemboursement[0]);
+					
 					}
 			 });
 
 			}
 		},
+
+
 	ajaxSettings: {
 		dataType: "json",
 		method: "POST",
