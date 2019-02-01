@@ -1,8 +1,3 @@
-// var options = {
-// 	data: ["blue", "green", "pink", "red", "yellow"]
-// };
-
-// $("#basics").easyAutocomplete(options);
 
 var options = {
 	url: function(phrase) {
@@ -10,13 +5,6 @@ var options = {
 	},
 	
 
-	// getValue: "denomination",
-
-	// list: {
-	// 	match: {
-	// 		enabled: true
-	// 	}
-	// }
 
 	getValue: function(element) {
 		return element.denomination;

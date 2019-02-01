@@ -11,12 +11,22 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="EA_search/easy-autocomplete.min.css"> 
     <!-- Additional CSS Themes file - not required-->
-    <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css"> 
+    <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
 </head>
 <body>
-    <!-- <input id="basics" /> -->
-    <input id="provider-json" />
+    <form action="medica.php" method="get">
+            <!-- <input id="basics" /> -->
+            <input id="provider-json" placeholder="Search" name="requete" type="search"/>
+            <input type="submit" value="Envoyer" id="bouton_envoi">
+    </form>
+
+
+            <div class="contenu"></div>
+
+    
     <script src="public/js/search.js"></script>
 </body>
 </html>
