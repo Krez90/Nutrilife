@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="src/scss/style.css">
+      <!-- jQuery CDN -->
+      <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- JS file -->
+    <script src="EA_search/jquery.easy-autocomplete.min.js"></script> 
+    <!-- CSS file -->
+    <link rel="stylesheet" href="EA_search/easy-autocomplete.min.css"> 
+    <!-- Additional CSS Themes file - not required-->
+    <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css">
+    <script type = "text/javascript"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed">
@@ -55,12 +64,19 @@
                         <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.svg"></h1>
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
-                        <input class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px;" type="text" value=""/>
-                            <a class="button button-primary button-shadow" href="#">Recherche</a>
+                        <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px;" type="text" value=""/>
+                        <div id="nom"></div>
+                        <div id="description"></div>
+                        <div id="taux"></div>
+                        <div id="prix"></div>
+                        
+                        
+                        </div>
                         </div>
 
                     </div>
                 </div>
+                   
 
                 <div class="containerrs">
                 <img src="feuille.jpg" style="margin-top:35px;">
@@ -133,6 +149,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="public/js/search.js"></script>
     <script src="dist/js/main.min.js"></script>
 </body>
 </html>
