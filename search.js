@@ -1,3 +1,5 @@
+var prix = "Prix = ";
+
 var options = {
 	url: function(phrase) {
 		return "searchMedicament.php?search="+phrase;
