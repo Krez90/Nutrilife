@@ -1,4 +1,3 @@
-
 <?php
         // create curl resource
         $ch = curl_init();

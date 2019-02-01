@@ -1,4 +1,3 @@
-
 var options = {
 	url: function(phrase) {
 		return "searchMedicament.php?search="+phrase;
@@ -16,10 +15,10 @@ var options = {
 						var responseJson = $.parseJSON(response);
 						$("#nom").text(responseJson.denomination);
 						$("#description").text(responseJson.indicationsTherapeutiques);
-						$("#prix").text(responseJson.presentations[0].prix == null ? "Prix libre" : responseJson.presentations[0].prix);
-						$("#taux").text(responseJson.presentations[0].tauxRemboursement[0]);
+						$("#prix").text(responseJson.presentations[0].prix == null ? "Non renseigné" : responseJson.presentations[0].prix);
 					}
 			 });
+
 			}
 		},
 	ajaxSettings: {
@@ -40,36 +39,3 @@ var options = {
 };
 
 $("#provider-json").easyAutocomplete(options);
-
-
-
-
-// var options = {
-// 	url: function(phrase) {
-// 		return "searchMedicament.php?search="+phrase;
-// 	},
-	
-
-
-// 	getValue: function(element) {
-// 		return element.denomination;
-// 	  },
-
-// 	ajaxSettings: {
-// 		dataType: "json",
-// 		method: "POST",
-// 		data: {
-// 		  dataType: "json"
-// 		}
-// 	  },
-	
-// 	  preparePostData: function(data) {
-// 		data.phrase = $("#provider-json").val();
-// 		return data;
-// 	  },
-	
-// 	  requestDelay: 400
-
-// };
-
-// $("#provider-json").easyAutocomplete(options);

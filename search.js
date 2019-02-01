@@ -1,3 +1,5 @@
+var prix = "Prix = ";
+
 var options = {
 	url: function(phrase) {
 		return "searchMedicament.php?search="+phrase;
@@ -16,6 +18,7 @@ var options = {
 						$("#nom").text(responseJson.denomination);
 						$("#description").text(responseJson.indicationsTherapeutiques);
 						$("#prix").text(responseJson.presentations[0].prix == null ? "Prix libre" : responseJson.presentations[0].prix);
+						$("#taux").text(responseJson.presentations[0].tauxRemboursement[0]);
 					}
 			 });
 
