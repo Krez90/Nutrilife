@@ -71,10 +71,6 @@ dfn {
     font-style: italic
 }
 
-mark {
-    background-color: #ff0;
-    color: #000
-}
 
 small {
     font-size: 80%
@@ -228,10 +224,15 @@ hr {
     margin-bottom: 24px
 }
 
+a{
+    color: #4d6ae7 !important;
+}
+
 ul, ol {
     margin-top: 0;
     margin-bottom: 24px;
-    padding-left: 24px
+    padding-left: 24px;
+    display:none;
 }
 
 ul {
@@ -274,10 +275,6 @@ figcaption {
     font-size: 14px;
     line-height: 20px;
     padding: 8px 0
-}
-
-img, svg {
-    display: block
 }
 
 table {
@@ -561,7 +558,17 @@ button, input, select, textarea, label {
         padding-right: 24px
     }
 }
-
+.hero-title{
+    margin:auto;
+    padding-bottom:60px;
+    width: 40%;
+}
+.mt-0 {
+    margin-top: 0
+}
+.sr .has-animations .is-revealing {
+    visibility: hidden
+}
 .container {
     max-width: 1128px
 }
@@ -1366,4 +1373,3 @@ main {
         margin-bottom: 0
     }
 }
-
