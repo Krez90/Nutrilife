@@ -68,10 +68,13 @@
                         <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div id="nom"id="medocstyle"></div>
-                        <div class="prescription"id="medocstyle">Indications thérapeutiques<div id="prescription"></div></div>
-                        <div class="price"id="medocstyle">Prix :<div id="prix"></div></div>
+                        <div id="nom"></div><br>
+                        <div id="prescription"></div><br>
+                        <div class="price" id="prix_titre"></div>
+                        <div id="prix"></div>
+                        <div id="taux_titre"></div>
                         <div id="taux"></div>
+                        <div id="IR_titre"></div>
                         <div id="indicremboursement"></div>
                         </div>
 
