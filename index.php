@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="src/scss/style.css">
-=======
     <link rel="stylesheet" href="public/css/style.css">
       <!-- jQuery CDN -->
       <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -19,19 +16,11 @@
     <!-- Additional CSS Themes file - not required-->
     <link rel="stylesheet" href="EA_search/easy-autocomplete.themes.min.css">
     <script type = "text/javascript"></script>
->>>>>>> 6c36851253bdce9cdd6783a66e8530f4a66facf4
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed">
     <div class="body-wrap boxed-container">
         <header class="site-header">
-
-			<div class="hero-disk hero-disk-1 is-moving-object is-translating" data-translating-factor="60">
-			</div>
-
-			<div class="hero-sphere hero-sphere-1 is-moving-object is-translating" data-translating-factor="10">
-			</div>
-
             <div class="container">
                 <div class="site-header-inner">
                     <div class="brand header-brand">

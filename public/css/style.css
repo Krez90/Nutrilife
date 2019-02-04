@@ -1115,7 +1115,9 @@ button, input, select, textarea, label {
 
 .site-header {
     position: relative;
-    padding: 24px 0
+    padding: 24px 0;
+    background-color: #00bbd8;
+    margin-bottom:5%;
 }
 
 .site-header-inner {
