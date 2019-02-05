@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css">
       <!-- jQuery CDN -->
@@ -21,16 +22,11 @@
 <body class="is-boxed">
     <div class="body-wrap boxed-container">
         <header class="site-header">
-
-			<div class="hero-disk hero-disk-1 is-moving-object is-translating" data-translating-factor="60">
-			</div>
-
-			<div class="hero-sphere hero-sphere-1 is-moving-object is-translating" data-translating-factor="10">
-			</div>
-
             <div class="container">
                 <div class="site-header-inner">
-                    <div class="brand header-brand">
+                <i class="fas fa-laptop-medical"title="Infos médicaments" href="#"></i>
+                <i class="fas fa-map-marked-alt"title="Rechercher une pharmacie autour de vous" href="geolocalisation"></i>
+                    <!-- <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
 								<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -44,36 +40,42 @@
 								</svg>
                             </a>
                         </h1>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </header>
         <main>
             <section class="hero text-center">
-				<div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
+				<!-- <div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
 				</div>
 				<div class="hero-disk hero-disk-4 is-moving-object is-translating" data-translating-factor="50">
 
 				</div>
 				<div class="hero-sphere hero-sphere-2 is-moving-object is-translating" data-translating-factor="30">
 
-				</div>
+				</div> -->
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.png"></h1>
-                        <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo1.svg" class="logo"></h1>
+                        <p class="hero-paragraph is-revealing">Besoin d'une information sur un medicament ?<br>Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div id="nom"></div>
-                        <div class="prescription"id="medocstyle">Préscription :<div id="prescription"></div></div>
-                        <div id="taux"id="medocstyle"></div>
-                        <div class="prix"id="medocstyle"> Prix :<div id="prix"></div></div>
+                        <div class="reponse">
+                        <div id="nom"></div><br>
+                        <div id="prescription"></div><br>
+                        <div class="price" id="prix_titre"></div>
+                        <div id="prix"></div>
+                        <div id="taux_titre"></div>
+                        <div id="taux"></div>
+                        <div id="IR_titre"></div>
+                        <div id="indicremboursement"></div>
+                        </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="containerrs">
-                <img src="public/images/feuille.jpg" style="margin-top:35px;">
+                <div class="containers">
+                <img src="public/images/feuille.jpg" >
                 </div>
             </section>
             <section class="features section text-center">

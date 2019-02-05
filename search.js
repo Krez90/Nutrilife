@@ -15,9 +15,13 @@ var options = {
 					success: function (response) {//response is value returned from php (for your example it's "bye bye"
 						var responseJson = $.parseJSON(response);
 						$("#nom").text(responseJson.denomination);
-						$("#prescription").html(responseJson.indicationsTherapeutiques);
-						$("#prix").text(responseJson.presentations[0].prix == null ? "Prix libre" : responseJson.presentations[0].prix);
-						$("#taux").text(responseJson.presentations[0].tauxRemboursement[0]);
+						$("#prescription").html("Prescription :<br><br>" + responseJson.indicationsTherapeutiques);
+						$("#prix_titre").text("Prix :");
+						$("#prix").text(responseJson.presentations[0].prix == null ? "libre" : responseJson.presentations[0].prix);
+						$("#taux_titre").text("Taux de remboursement :");
+						$("#taux").text(responseJson.presentations[0].tauxRemboursement.length == 0 ? "Non remboursé" : responseJson.presentations[0].tauxRemboursement);
+						$("#IR_titre").text("Indication de remboursement :");
+						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné" : responseJson.presentations[0].indicationsRemboursement);
 					
 					}
 			 });
