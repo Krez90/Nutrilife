@@ -56,7 +56,7 @@
 				</div> -->
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo1.svg" class="logo"></h1>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo2.svg" class="logo"></h1>
                         <p class="hero-paragraph is-revealing">Besoin d'une information sur un medicament ?<br>Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
