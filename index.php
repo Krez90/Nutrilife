@@ -58,6 +58,7 @@
                         <div id="taux"></div>
                         <div id="IR_titre"></div>
                         <div id="indicremboursement"></div>
+                        <div id="generique"></div>
                         </div>
                         </div>
 
