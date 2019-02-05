@@ -21,30 +21,31 @@
 </head>
 <body class="is-boxed">
     <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                <div class="button-group">
+    <div class="button-group">
                     <div>
-                    <i class="fas fa-clinic-medical active"title="Infos médicaments" href="#home"></i>
+                    <a href="#home" class="active"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="clinic-medical" id="svgnav"class="svg-inline--fa fa-clinic-medical fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2zm96 261a8 8 0 0 1-8 8h-56v56a8 8 0 0 1-8 8h-48a8 8 0 0 1-8-8v-56h-56a8 8 0 0 1-8-8v-48a8 8 0 0 1 8-8h56v-56a8 8 0 0 1 8-8h48a8 8 0 0 1 8 8v56h56a8 8 0 0 1 8 8zm186.69-139.72l-255.94-226a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59z"></path></svg></a>
                     </div>
                     <div>
-                    <i class="fas fa-map-marked-alt active" title="Rechercher une pharmacie autour de vous" href="#geolocalisation"></i>
+                    <a href="#geolocalisation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marked-alt" id="svgnav"class="svg-inline--fa fa-map-marked-alt fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></a>
                     </div>
                     <div>
-                    <i class="fas fa-info-circle active"title="à propos" href="#info"></i>
+                    <a href="#info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" id="svgnav"class="svg-inline--fa fa-info-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg></a>
                     </div>
                 
                 </div>
+        <!-- <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                
                 </div>
             </div>
-        </header>
+        </header> -->
         <main>
             <div id="home">
             <section class="hero text-center" >
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo2.svg" class="logo"></h1>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo1.svg" class="logo"></h1>
                         <p class="hero-paragraph is-revealing">Besoin d'une information sur un medicament ?<br>Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
@@ -77,7 +78,13 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										
+										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+										    <defs>
+										    <g fill="none" fill-rule="evenodd">
+										        <path fill="url(#feature-1-a)" d="M64 32v32H32V32H0V0h32v32z"/>
+										        <path fill="url(#feature-1-b)" d="M16 16h32v32H16z"/>
+										    </g>
+										</svg>
                                     </div>
                                     <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
@@ -87,8 +94,15 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
+										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+										    <defs>
+										    <g fill="none" fill-rule="evenodd">
+										        <path d="M32 64C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32zm0-16c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16z" fill="url(#feature-2-a)"/>
+										        <path fill="url(#feature-2-b)" d="M0 0h32v32H0z"/>
+										    </g>
+										</svg>
                                     </div>
-                                    <img src="public/images/info.svg" style="width:30%;">
+                                    <img src="public/images/email.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
                                     <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
                                 	</div>
@@ -99,6 +113,11 @@
 
         <footer class="site-footer">
 			<div class="footer-disk footer-disk-1 is-moving-object is-translating" data-translating-factor="60">
+				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+
+					<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-5-a)" fill-rule="evenodd"/>
+				</svg>
 			</div>
 			<div class="footer-disk footer-disk-2 is-moving-object is-translating" data-translating-factor="80">
 				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
