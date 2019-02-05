@@ -24,36 +24,24 @@
         <header class="site-header">
             <div class="container">
                 <div class="site-header-inner">
-                <i class="fas fa-laptop-medical"title="Infos médicaments" href="#"></i>
-                <i class="fas fa-map-marked-alt"title="Rechercher une pharmacie autour de vous" href="geolocalisation"></i>
-                    <!-- <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-									<title>Pharma net</title>
-								    <defs>
-
-								    <g fill="none" fill-rule="evenodd">
-								        <path d="M16 8h6a2 2 0 0 1 2 2v6h-6a2 2 0 0 1-2-2V8z" fill="url(#logo-a)"/>
-								        <path d="M16 0v8a8 8 0 1 0 8 8h8c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0z" fill="url(#logo-b)"/>
-								    </g>
-								</svg>
-                            </a>
-                        </h1>
-                    </div> -->
+                <div class="button-group">
+                    <div>
+                    <i class="fas fa-clinic-medical active"title="Infos médicaments" href="#home"></i>
+                    </div>
+                    <div>
+                    <i class="fas fa-map-marked-alt active" title="Rechercher une pharmacie autour de vous" href="#geolocalisation"></i>
+                    </div>
+                    <div>
+                    <i class="fas fa-info-circle active"title="à propos" href="#info"></i>
+                    </div>
+                
+                </div>
                 </div>
             </div>
         </header>
         <main>
-            <section class="hero text-center">
-				<!-- <div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
-				</div>
-				<div class="hero-disk hero-disk-4 is-moving-object is-translating" data-translating-factor="50">
-
-				</div>
-				<div class="hero-sphere hero-sphere-2 is-moving-object is-translating" data-translating-factor="30">
-
-				</div> -->
+            <div id="home">
+            <section class="hero text-center" >
                 <div class="container-sm">
                     <div class="hero-inner">
                         <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo2.svg" class="logo"></h1>
@@ -79,7 +67,11 @@
                 <img src="public/images/feuille.jpg" >
                 </div>
             </section>
-            <section class="features section text-center">
+            </div>
+            
+
+
+            <section class="features section text-center" id="info">
                 <div class="container-sm">
                     <div class="features-inner section-inner has-bottom-divider">
                         <div class="features-wrap">
@@ -90,7 +82,7 @@
                                     </div>
                                     <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
-                                    <p class="text-sm">Projet fait par une équipe motivée et dynamique afin de simplifier la recherche par médicaments.</p>
+                                    <p class="text-sm">Projet fait par une équipe jeune, motivée et dynamique afin de simplifier la recherche par médicaments.</p>
                                 </div>
                             </div>
                             <div class="feature">
@@ -99,11 +91,13 @@
                                     </div>
                                     <img src="public/images/info.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
-                                    <p class="text-sm">Contactez-nous par mail. Nous vous repondrons avec autant de rapidité que possible !</p>
+                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
                                 	</div>
                             	</div>
 		                	</div>
-           	 </section>
+                </section>
+                
+
         <footer class="site-footer">
 			<div class="footer-disk footer-disk-1 is-moving-object is-translating" data-translating-factor="60">
 			</div>

@@ -51,4 +51,10 @@ var options = {
 
 $("#provider-json").easyAutocomplete(options);
 
+// animation navbar//
+$( ".button-group > div" ).click(function() {
+	$('.button-group > div.active').not(this).removeClass('active');
+	$( this ).toggleClass( "active" );
+  });
+
 
