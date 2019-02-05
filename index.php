@@ -101,13 +101,6 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M32 64C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32zm0-16c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16z" fill="url(#feature-2-a)"/>
-										        <path fill="url(#feature-2-b)" d="M0 0h32v32H0z"/>
-										    </g>
-										</svg>
                                     </div>
                                     <img src="public/images/email.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
@@ -118,11 +111,6 @@
            	 </section>
         <footer class="site-footer">
 			<div class="footer-disk footer-disk-1 is-moving-object is-translating" data-translating-factor="60">
-				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
-					<defs>
-
-					<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-5-a)" fill-rule="evenodd"/>
-				</svg>
 			</div>
 			<div class="footer-disk footer-disk-2 is-moving-object is-translating" data-translating-factor="80">
 				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
