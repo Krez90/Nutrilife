@@ -22,7 +22,9 @@ var options = {
 						$("#taux").text(responseJson.presentations[0].tauxRemboursement.length == 0 ? "Non remboursé" : responseJson.presentations[0].tauxRemboursement);
 						$("#IR_titre").text("Indication de remboursement :");
 						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné" : responseJson.presentations[0].indicationsRemboursement);
+						$("#generique").text(JSON.stringify(responseJson.infosGenerique.autresMedicamentsGroupe)); 
 					
+						
 					}
 			 });
 
