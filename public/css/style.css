@@ -6,12 +6,12 @@ html {
 
 body {
     margin: 0;
-    background-color:rgb(138, 138, 138);
+    background-color:rgb(231, 230, 230);
 }
 
 .hero-title{
-    margin:auto;
-    padding-bottom:60px;
+    margin:0;
+    padding-bottom:20px;
     width: 40%;
 }
 article, aside, footer, header, nav, section {
@@ -267,6 +267,16 @@ img {
     vertical-align: middle
 }
 
+.logo{
+    max-width:100%;
+}
+
+/* @media(max-width: 776px){
+    .logo{
+        max-width: 100%;
+    }
+} */
+
 figure {
     margin: 24px 0
 }
@@ -313,6 +323,21 @@ html {
         font-size: 22px;
         line-height: 32px;
         letter-spacing: -0.1px
+    }
+}
+
+@media (max-width: 405px) {
+    html {
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: -0.1px
+    }
+    .hero-paragraph {
+        font-size: 15px !important;
+        
+    }
+    #provider-json {
+        font-size: 12px!important;
     }
 }
 
@@ -560,9 +585,14 @@ button, input, select, textarea, label {
 }
 .hero-title{
     margin:auto;
-    padding-bottom:60px;
-    width: 40%;
+    padding-bottom:20px;
+    width: 60%;
 }
+
+.hero-paragraph{
+    font-size: 20px;
+}
+
 .mt-0 {
     margin-top: 0
 }
@@ -1115,14 +1145,41 @@ button, input, select, textarea, label {
 
 .site-header {
     position: relative;
-    padding: 24px 0
+    padding: 24px 0;
+    background-color: rgba(151, 231, 226, 0.671);
+    margin-bottom:5%;
+}
+
+.fa-laptop-medical {
+    color: #746e6e;
+    font-size: 40px;
+}
+.fa-map-marked-alt{
+    color: #746e6e;
+    font-size: 40px;
+
 }
 
 .site-header-inner {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    justify-content: space-around;
+    align-items: center;
+    margin-left:70%;
+}
+
+@media(max-width:565px){
+    .site-header-inner{
+        margin-left:50%;
+    }
+    .fa-clinic-medical {
+        font-size: 30px;
+        margin-right:2%;
+    }
+    .fa-map-marked-alt{
+        font-size: 30px;
+    
+    } 
 }
 
 .header-links {
@@ -1228,8 +1285,8 @@ main {
 
 .section-inner {
     position: relative;
-    padding-top: 48px;
-    padding-bottom: 48px
+    padding-top: 28px;
+    padding-bottom: 28px
 }
 
 @media (min-width: 641px) {
@@ -1239,6 +1296,31 @@ main {
     }
 }
 
+.easy-autocomplete{
+    max-width: 100%;
+    display: flex!important;
+    position:relative !important;
+    justify-content: space-between!important;
+   
+    
+}
+.easy-autocomplete input{
+    border-radius:20px !important;
+    margin-right:0 !important;
+    margin-left:0 !important;
+}
+
+/* @media (min-width:868px){
+    .easy-autocomplete input{
+        width: 100%;
+    }
+} */
+
+.reponse{
+    background-color:rgba(151, 231, 226, 0.671);
+    margin-bottom:32px;
+    border-radius:20px;
+}
 .site-footer {
     position: relative;
     font-size: 14px;

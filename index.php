@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pharma net</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css">
       <!-- jQuery CDN -->
@@ -21,16 +22,11 @@
 <body class="is-boxed">
     <div class="body-wrap boxed-container">
         <header class="site-header">
-
-			<div class="hero-disk hero-disk-1 is-moving-object is-translating" data-translating-factor="60">
-			</div>
-
-			<div class="hero-sphere hero-sphere-1 is-moving-object is-translating" data-translating-factor="10">
-			</div>
-
             <div class="container">
                 <div class="site-header-inner">
-                    <div class="brand header-brand">
+                <i class="fas fa-laptop-medical"title="Infos médicaments" href="#"></i>
+                <i class="fas fa-map-marked-alt"title="Rechercher une pharmacie autour de vous" href="geolocalisation"></i>
+                    <!-- <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
 								<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -44,37 +40,42 @@
 								</svg>
                             </a>
                         </h1>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </header>
         <main>
             <section class="hero text-center">
-				<div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
+				<!-- <div class="hero-disk hero-disk-3 is-moving-object is-translating" data-translating-factor="90">
 				</div>
 				<div class="hero-disk hero-disk-4 is-moving-object is-translating" data-translating-factor="50">
 
 				</div>
 				<div class="hero-sphere hero-sphere-2 is-moving-object is-translating" data-translating-factor="30">
 
-				</div>
+				</div> -->
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo.png"></h1>
-                        <p class="hero-paragraph is-revealing">Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
+                        <h1 class="hero-title mt-0 is-revealing"><img src="public/images/pharmanetlogo2.svg" class="logo"></h1>
+                        <p class="hero-paragraph is-revealing">Besoin d'une information sur un medicament ?<br>Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div id="nom"id="medocstyle"></div>
-                        <div class="prescription"id="medocstyle">Indications thérapeutiques<div id="prescription"></div></div>
-                        <div class="price"id="medocstyle">Prix :<div id="prix"></div></div>
+                        <div class="reponse">
+                        <div id="nom"></div><br>
+                        <div id="prescription"></div><br>
+                        <div class="price" id="prix_titre"></div>
+                        <div id="prix"></div>
+                        <div id="taux_titre"></div>
                         <div id="taux"></div>
+                        <div id="IR_titre"></div>
                         <div id="indicremboursement"></div>
+                        </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="containerrs">
-                <img src="public/images/feuille.jpg" style="margin-top:35px;">
+                <div class="containers">
+                <img src="public/images/feuille.jpg" >
                 </div>
             </section>
             <section class="features section text-center">
@@ -84,44 +85,26 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path fill="url(#feature-1-a)" d="M64 32v32H32V32H0V0h32v32z"/>
-										        <path fill="url(#feature-1-b)" d="M16 16h32v32H16z"/>
-										    </g>
-										</svg>
+										
                                     </div>
                                     <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
-                                    <p class="text-sm">Projet fait par une équipe jeune, motivée et dynamique afin de simplifier la recherche par médicaments.</p>
+                                    <p class="text-sm">Projet fait par une équipe motivée et dynamique afin de simplifier la recherche par médicaments.</p>
                                 </div>
                             </div>
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M32 64C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32zm0-16c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16z" fill="url(#feature-2-a)"/>
-										        <path fill="url(#feature-2-b)" d="M0 0h32v32H0z"/>
-										    </g>
-										</svg>
                                     </div>
-                                    <img src="public/images/email.svg" style="width:30%;">
+                                    <img src="public/images/info.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <p class="text-sm">Contactez-nous par mail. Nous vous repondrons avec autant de rapidité que possible !</p>
                                 	</div>
                             	</div>
 		                	</div>
            	 </section>
         <footer class="site-footer">
 			<div class="footer-disk footer-disk-1 is-moving-object is-translating" data-translating-factor="60">
-				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
-					<defs>
-
-					<path d="M153 492c0-165.685 134.315-300 300-300s300 134.315 300 300H603c0-82.843-67.157-150-150-150s-150 67.157-150 150H153z" transform="translate(-153 -192)" fill="url(#disk-5-a)" fill-rule="evenodd"/>
-				</svg>
 			</div>
 			<div class="footer-disk footer-disk-2 is-moving-object is-translating" data-translating-factor="80">
 				<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
