@@ -14,8 +14,18 @@ var options = {
 					dataType: "html",
 					success: function (response) {//response is value returned from php (for your example it's "bye bye"
 						var responseJson = $.parseJSON(response);
+						$(".reponse").css({
+							backgroundColor : "rgba(151, 231, 226, 0.671)",
+							marginBottom:"20px",
+							borderRadius:"20px",
+							paddingTop: "5%",
+							paddingRight: "3%",
+							paddingLeft: "3%",
+							paddingBottom: "5%"});
+						// $("#prescription").css("text-align","left");
 						$("#nom").text(responseJson.denomination);
-						$("#prescription").html("Prescription :<br><br>" + responseJson.indicationsTherapeutiques);
+						$("#pres_titre").text("Prescrition :")
+						$("#prescription").html(responseJson.indicationsTherapeutiques).css("text-align","left");
 						$("#prix_titre").text("Prix :");
 						$("#prix").text(responseJson.presentations[0].prix == null ? "libre" : responseJson.presentations[0].prix);
 						$("#taux_titre").text("Taux de remboursement :");
@@ -28,7 +38,6 @@ var options = {
 
 			}
 		},
-
 
 	ajaxSettings: {
 		dataType: "json",
@@ -48,11 +57,3 @@ var options = {
 };
 
 $("#provider-json").easyAutocomplete(options);
-
-// animation navbar//
-$( ".button-group > div" ).click(function() {
-	$('.button-group > div.active').not(this).removeClass('active');
-	$( this ).toggleClass( "active" );
-  });
-
-
