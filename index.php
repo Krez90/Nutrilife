@@ -96,7 +96,7 @@
                                 <div class="feature-inner">
                                     <div class="feature-icon">
                                     </div>
-                                    <img src="public/images/email.svg" style="width:30%;">
+                                    <img src="public/images/info.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
                                     <p class="text-sm">Contactez-nous par mail. Nous vous repondrons avec autant de rapidité que possible !</p>
                                 	</div>
