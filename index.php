@@ -93,7 +93,7 @@
                                     </div>
                                     <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
-                                    <p class="text-sm">Projet fait par une équipe jeune, motivée et dynamique afin de simplifier la recherche par médicaments.</p>
+                                    <p class="text-sm">Projet fait par une équipe motivée et dynamique afin de simplifier la recherche par médicaments.</p>
                                 </div>
                             </div>
                             <div class="feature">
@@ -109,7 +109,7 @@
                                     </div>
                                     <img src="public/images/email.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">Contact</h3>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <p class="text-sm">Contactez-nous par mail. Nous vous repondrons avec autant de rapidité que possible !</p>
                                 	</div>
                             	</div>
 		                	</div>
