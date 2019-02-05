@@ -85,13 +85,7 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path fill="url(#feature-1-a)" d="M64 32v32H32V32H0V0h32v32z"/>
-										        <path fill="url(#feature-1-b)" d="M16 16h32v32H16z"/>
-										    </g>
-										</svg>
+										
                                     </div>
                                     <img src="public/images/teamwork.svg" style="width:30%;">
                                     <h3 class="feature-title mt-24">A propos</h3>
