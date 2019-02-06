@@ -101,7 +101,7 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                    <img src="public/images/teamwork.svg" style="width:30%;">
+                                    <img src="public/images/teamwork.svg" style="width:20%;">
                                     </div>
                                     <h3 class="feature-title mt-24">A propos</h3>
                                     <p class="text-sm">Projet réalisé par une équipe jeune et motivée afin de dynamiser la recherche d'information sur les médicaments commercialisés en France. Vous pourrez aussi rechercher et géolocaliser les pharmacies autour de vous. </p>
@@ -110,7 +110,7 @@
                             <div class="feature">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                    <img src="public/images/bubble-chat.svg" style="width:30%;">
+                                    <img src="public/images/bubble-chat.svg" style="width:20%;">
                                     </div>
                                     <h3 class="feature-title mt-24">Infos</h3>
                                     <p class="text-sm">Avis à nos chers utilisateurs :<br> Pharma_Net décline toute responsabilités en cas de mauvaise utilisation médicamenteuse, Veuillez contacter votre médecin ou votre pharmacien pour tout avis médical. </p>

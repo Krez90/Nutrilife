@@ -1577,6 +1577,16 @@ margin-top: 5px;
     }
     }
 
+    @media(max-width:380px){
+        .titregeo{
+            width:100%;
+        }
+        #logopage{
+            font-size:50px!important;
+        }
+       
+    }
+
   #loc-bt{
     /* * Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02a3f7+0,15caca+56,25eba4+83,bdf3fd+100&0.3+1,0.8+13,1+62,0.45+92 */ 
     background: -moz-linear-gradient(-45deg, rgba(2,163,247,0.3) 0%, rgba(2,164,246,0.3) 1%, rgba(6,172,236,0.8) 13%, rgba(21,202,202,0.98) 56%, rgba(23,207,196,1) 62%, rgba(37,234,165,0.95) 95%, rgba(37,235,164,0.95) 96%); /* FF3.6-15 */
@@ -1601,22 +1611,22 @@ margin-top: 5px;
   .feuille{
       height:70%;
       width: 70%;
+      margin-top:10%;
   }
   @media(max-width:576px){
     .feuille{
         height:100%;
         width: 100%;
-        margin-top:10%;
     }
     
   }
 
   #logopage{
-      font-size:100px;
+      font-size:90px;
       margin-bottom:2%;
   }
 
-  @media(max-width:576px){
+  @media(max-width:577px){
     #logopage{
         font-size:70px;
         margin-top:80px;
