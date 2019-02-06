@@ -21,7 +21,8 @@ var options = {
 							paddingTop: "5%",
 							paddingRight: "3%",
 							paddingLeft: "3%",
-							paddingBottom: "5%"});
+							paddingBottom: "5%",
+							display: "block"});
 						$("#nom").text(responseJson.denomination);
 						$("#pres_titre").text("Prescrition :")
 						$("#prescription").html(responseJson.indicationsTherapeutiques).css("text-align","left");

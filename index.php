@@ -54,7 +54,7 @@
                         <p class="hero-paragraph is-revealing">Besoin d'une information sur un medicament ?<br>Ne perdez plus votre temps. <br> Faites vos recherches en toute simplicité !</p>
                         <div class="hero-cta is-revealing">
                         <input id="provider-json" class="champ" style ="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;" type="text" value=""/>
-                        <div class="reponse">
+                        <div class="reponse" style="display: none;" >
                         <div id="nom"></div><br>
                         <div id="prescription"></div><br>
                         <div class="price" id="prix_titre"></div>
@@ -78,7 +78,7 @@
 
             <section class="hero text-center" id ="geolocalisation">
             <div class="container-sm">
-            <i class ="fas fa-map-marked-alt" id="logopage"></i>
+            <i class ="fas fa-map-marked-alt " id="logopage"></i>
             <div class="hero-inner">
                 <div class="titregeo" >
                 
