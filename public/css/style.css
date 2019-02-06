@@ -1296,6 +1296,7 @@ main {
 
 #svgnav{
 width: 40px;
+margin-top: 5px;
 }
 
 .section-inner {
@@ -1498,8 +1499,21 @@ width: 40px;
         margin-top:0;
         
     }
-}
+    #svgnav{
+        width: 30px;
+        margin-top: 5px;
+        }
+    }
+    @media (max-width:967px){
+        .button-group{
+            width: 100px;
+            height: 250px;  
+        }
 
+        #navbutton{
+            margin-top:10px;
+        }
+    }
 
 
   .button-group > div {
@@ -1546,6 +1560,13 @@ width: 40px;
     filter: blur(0px);
     box-shadow: -75px 0 0px 0px rgba(179,225,255,0.3), 74px 0 0px 0px rgba(179,225,255,0.35);
   }
+  #navbutton{
+      height: 100%;
+      width:100%;
+      text-align: center;
+      
+  }
+
   /* .button-group > div svg {
     height: 2em;
     width: 2em;
