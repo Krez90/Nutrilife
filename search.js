@@ -24,7 +24,7 @@ var options = {
 							paddingBottom: "5%"});
 						// $("#prescription").css("text-align","left");
 						$("#nom").text(responseJson.denomination);
-						$("#pres_titre").text("Prescrition :")
+						$("#pres_titre").text("Prescrition :");
 						$("#prescription").html(responseJson.indicationsTherapeutiques).css("text-align","left");
 						$("#prix_titre").text("Prix :");
 						$("#prix").text(responseJson.presentations[0].prix == null ? "libre" : responseJson.presentations[0].prix);
@@ -32,7 +32,18 @@ var options = {
 						$("#taux").text(responseJson.presentations[0].tauxRemboursement.length == 0 ? "Non remboursé" : responseJson.presentations[0].tauxRemboursement);
 						$("#IR_titre").text("Indication de remboursement :");
 						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné" : responseJson.presentations[0].indicationsRemboursement);
-					
+						$("#gene_titre").text("Générique(s) :");
+						if (responseJson.infosGenerique) {
+							var content = "";	
+							for (var i = 0; i < responseJson.infosGenerique.autresMedicamentsGroupe.length; i++) {
+								content += responseJson.infosGenerique.autresMedicamentsGroupe[i].denomination + "<br><br>";
+							}
+							// console.log(content);
+							$("#generique").html(content);
+						}else{
+							// console.log(content);
+							$("#generique").html(responseJson.infosGenerique == null ? "Aucun" : responseJson.infosGenerique);
+						}
 					}
 			 });
 

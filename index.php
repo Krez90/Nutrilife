@@ -69,7 +69,9 @@
                         <div id="taux_titre"></div>
                         <div id="taux"></div><br>
                         <div id="IR_titre"></div>
-                        <div id="indicremboursement"></div>
+                        <div id="indicremboursement"></div><br> 
+                        <div id="gene_titre"></div><br>
+                        <div id="generique"></div>
                         </div>
                         </div>
 
