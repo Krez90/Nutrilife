@@ -11,7 +11,7 @@
               var latitude = position.coords.latitude;
               var longitude = position.coords.longitude;
   
-              var options = {zoom: 15, center:new google.maps.LatLng(latitude,longitude),};
+              // var options = {zoom: 15, center:new google.maps.LatLng(latitude,longitude),};
               //google.maps.event.addDomListener(window, 'load', initMap)
               var center = new google.maps.LatLng( latitude,longitude);
               map = new google.maps.Map(document.getElementById('map'),{
@@ -77,7 +77,7 @@
     };
      
       function createMarker(place){
-        var placeLoc = place.geometry.location;
+        // var placeLoc = place.geometry.location;
         var marker = new google.maps.Marker({
           map : map,
           position: place.geometry.location,
