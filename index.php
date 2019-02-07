@@ -70,18 +70,18 @@
                         <div class="hero-cta is-revealing">
                             <input id="provider-json" class="champ" style="margin-left:10px; margin-right:15px; margin-bottom:15px; height:60px; width:100%;"
                                 type="text" value="" />
-                            <div class="reponse" style="display: none;">
-                                <div id="nom"></div><br>
-                                <div id="prescription"></div><br>
-                                <div class="price" id="prix_titre"></div>
-                                <div id="prix"></div>
-                                <div id="taux_titre"></div>
-                                <div id="taux"></div>
-                                <div id="IR_titre"></div>
-                                <div id="indicremboursement"></div>
+                                <div class="reponse" style="display: none;" >
+                            <div id="nom"></div><br>
+                            <div id="prescription"></div><br>
+                                <div class="format-left" id="prix_titre"></div><div id="prix" class="format-right"></div>
+                                <br>
+                                <div id="taux_titre" class="format-left"></div>
+                                <div id="taux" class="format-right"></div><br>
+                                <div id="IR_titre" class="format-left"></div>
+                                <div id="indicremboursement" class="format-right"></div><br><br>
                                 <div id="gene_titre"></div><br>
                                 <div id="generique"></div>
-                            </div>
+                        </div>
                         </div>
 
                     </div>
