@@ -9,10 +9,6 @@ body {
     background-color:rgb(231, 230, 230);
 }
 
-.hero-inner{
-    padding-top: 75px;
-}
-
 .hero-title{
     margin:0;
     padding-bottom:20px;
@@ -275,7 +271,7 @@ img {
 .logo{
     max-width:100%;
     padding-bottom: 10%;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 /* @media(max-width: 776px){
@@ -1241,8 +1237,7 @@ button, input, select, textarea, label {
 }
 
 .feature-inner {
-    height: 100%;
-    margin-top: 5%;
+    height: 100%
 }
 
 .feature-icon {
@@ -1297,6 +1292,7 @@ main {
 #svgnav{
 width: 40px;
 margin-top: 5px;
+color: white;
 }
 
 .section-inner {
@@ -1432,7 +1428,7 @@ margin-top: 5px;
     width: 100px;
     height: 200px;
     padding-bottom:10px;
-    margin-top:157px;
+    margin-top:53px;
     border-radius: 7px;
   }
 
@@ -1462,15 +1458,15 @@ margin-top: 5px;
   .button-group > div {
     cursor: pointer;
     flex: 1;
-    background-image: linear-gradient(to top, #aee1e3 0%, #4dc8f8 100%);
+    background-image: linear-gradient(to bottom, #51bbf3 0%, #00e3f3 50%, #00d3d1 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1px;
-    margin-bottom:12px;
+    margin-bottom:10px;
     transition: 0.2s;
     font-size: 1.5em;
-    box-shadow: inset 0 20px 4px -21px rgba(255,255,255,0.4), 0 6px 13px 0 rgba(0,0,0,0.3);
+    box-shadow: inset 0 20px 4px -21px rgba(255,255,255,0.4), 0 7px 13px 0 rgba(0,0,0,0.3);
     /* color: #574d4d; */
     position: relative;
     z-index: 2;
@@ -1546,7 +1542,7 @@ margin-top: 5px;
   }
 
   #geolocalisation{
-   
+    margin-top:10%;
     /* background-image:url("../images/feuille.jpg"); */
     opacity:0.75;
     background-size:cover;
@@ -1560,54 +1556,87 @@ margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5%;
-    box-shadow: 5px 10px 18px #888;
+    /* box-shadow: 5px 10px 18px #888; */
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
    
   
   }
-  @media(max-width:577px){
-    .titregeo{
-        margin-top:10%;
-        width: 80%;
-    }
-    #geolocalisation{
-       
-    }
-    .hero-inner{
-        padding-top: 70px;
-    }
+
+  @media(max-width:801px){
+
+    .easy-autocomplete{
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    @media(max-width:380px){
+    .hero-inner{
+        padding-top: 0px;
+    }
+}
+
+  @media(max-width:600px){
+    .titregeo{
+        width: 80%;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #loc-bt{
+        margin-top: 25px;
+    }
+
+    #geolocalisation{
+        padding-top: 15%;
+        margin-top: 0px
+    }
+    .hero-inner{
+        padding-top: 5px;
+    }
+
+    .easy-autocomplete{
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+    @media(max-width:480px){
         .titregeo{
             width:100%;
-            margin-top:10%;
-            margin-bottom:10%;
+            margin-bottom: 15px;
         }
         #logopage{
             font-size:50px!important;
         }
-       
+        .hero-inner{
+            padding-top: 8%;
+        }
+
+        .hero-title{
+            padding-top: 20%;
+        }
+
     }
 
   #loc-bt{
     /* * Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02a3f7+0,15caca+56,25eba4+83,bdf3fd+100&0.3+1,0.8+13,1+62,0.45+92 */ 
-    background: -moz-linear-gradient(-45deg, rgba(2,163,247,0.3) 0%, rgba(2,164,246,0.3) 1%, rgba(6,172,236,0.8) 13%, rgba(21,202,202,0.98) 56%, rgba(23,207,196,1) 62%, rgba(37,234,165,0.95) 95%, rgba(37,235,164,0.95) 96%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(2,163,247,0.3) 0%,rgba(2,164,246,0.3) 1%,rgba(6,172,236,0.8) 13%,rgba(21,202,202,0.98) 56%,rgba(23,207,196,1) 62%,rgba(37,234,165,0.95) 95%,rgba(37,235,164,0.95) 96%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(2,163,247,0.3) 0%,rgba(2,164,246,0.3) 1%,rgba(6,172,236,0.8) 13%,rgba(21,202,202,0.98) 56%,rgba(23,207,196,1) 62%,rgba(37,234,165,0.95) 95%,rgba(37,235,164,0.95) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(32,170,255);
+    background: -moz-linear-gradient(309deg, rgba(32,170,255,1) 0%, rgba(0,191,254,1) 15%, rgba(41,209,255,1) 35%, rgba(0,220,220,1) 59%, rgba(0,211,208,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(309deg, rgba(32,170,255,1) 0%, rgba(0,191,254,1) 15%, rgba(41,209,255,1) 35%, rgba(0,220,220,1) 59%, rgba(0,211,208,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(309deg, rgba(32,170,255,1) 0%, rgba(0,191,254,1) 15%, rgba(41,209,255,1) 35%, rgba(0,220,220,1) 59%, rgba(0,211,208,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d02a3f7', endColorstr='#f225eba4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     height:70px;
     width: 250px;
     border-radius:20px;
-    margin-bottom:5%;
-    margin-top:5%;
+    margin-bottom:10%;
+    color: white;
+    margin-top: 25px;
 
 }
 
   #map {
-    padding-top:5%;
-    padding-bottom:5%;
     height: 500px;
     width: 100%;
     margin-bottom:15%;
@@ -1622,28 +1651,20 @@ margin-top: 5px;
     .feuille{
         height:100%;
         width: 100%;
-        margin-bottom:5%;
     }
     
   }
 
   #logopage{
       font-size:90px;
-      margin-bottom:5%;
+      margin-bottom:2%;
   }
-  .markedpage{
-    margin-top:70px!important;
-}
 
   @media(max-width:577px){
     #logopage{
         font-size:70px;
         margin-top:80px;
         margin-bottom:2%;
-    }
-
-    .markedpage{
-        margin-top:100px!important;
     }
 /* 
     #geolocalisation{
