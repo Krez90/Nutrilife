@@ -1555,7 +1555,7 @@ margin-top: 5px;
 
   .titregeo{
     padding-top: 5%;
-    background-color:#ddf9fd;
+    /* background-color:#ddf9fd; */
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -1600,7 +1600,8 @@ margin-top: 5px;
     height:70px;
     width: 250px;
     border-radius:20px;
-    margin-bottom:10%;
+    margin-bottom:5%;
+    margin-top:5%;
 
 }
 
@@ -1628,8 +1629,11 @@ margin-top: 5px;
 
   #logopage{
       font-size:90px;
-      margin-bottom:10%;
+      margin-bottom:5%;
   }
+  .markedpage{
+    margin-top:70px!important;
+}
 
   @media(max-width:577px){
     #logopage{
