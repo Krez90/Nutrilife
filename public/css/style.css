@@ -275,7 +275,7 @@ img {
 .logo{
     max-width:100%;
     padding-bottom: 10%;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 /* @media(max-width: 776px){
@@ -1241,7 +1241,8 @@ button, input, select, textarea, label {
 }
 
 .feature-inner {
-    height: 100%
+    height: 100%;
+    margin-top: 5%;
 }
 
 .feature-icon {
@@ -1567,10 +1568,11 @@ margin-top: 5px;
   }
   @media(max-width:577px){
     .titregeo{
+        margin-top:10%;
         width: 80%;
     }
     #geolocalisation{
-        padding-top: 7%;
+       
     }
     .hero-inner{
         padding-top: 70px;
@@ -1580,6 +1582,8 @@ margin-top: 5px;
     @media(max-width:380px){
         .titregeo{
             width:100%;
+            margin-top:10%;
+            margin-bottom:10%;
         }
         #logopage{
             font-size:50px!important;
@@ -1617,13 +1621,14 @@ margin-top: 5px;
     .feuille{
         height:100%;
         width: 100%;
+        margin-bottom:5%;
     }
     
   }
 
   #logopage{
       font-size:90px;
-      margin-bottom:2%;
+      margin-bottom:10%;
   }
 
   @media(max-width:577px){
@@ -1631,6 +1636,10 @@ margin-top: 5px;
         font-size:70px;
         margin-top:80px;
         margin-bottom:2%;
+    }
+
+    .markedpage{
+        margin-top:100px!important;
     }
 /* 
     #geolocalisation{
