@@ -73,13 +73,14 @@
                                 <div class="reponse" style="display: none;" >
                             <div id="nom"></div><br>
                             <div id="prescription"></div><br>
-                                <div class="format-left" id="prix_titre"></div><div id="prix" class="format-right"></div>
-                                <br>
+                                <div id="prix_titre" class="format-left" ></div>
+                                <div id="prix" class="format-right"></div>
                                 <div id="taux_titre" class="format-left"></div>
-                                <div id="taux" class="format-right"></div><br>
-                                <div id="IR_titre" class="format-left"></div>
-                                <div id="indicremboursement" class="format-right"></div><br><br>
-                                <div id="gene_titre"></div><br>
+                                <div id="taux" class="format-right"></div>
+                                <div id="IR_titre"></div>
+                                <div id="indicremboursement"></div>
+                                <div id="ligne"></div>
+                                <div id="gene_titre"></div>
                                 <div id="generique"></div>
                         </div>
                         </div>

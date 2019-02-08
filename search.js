@@ -19,30 +19,38 @@ var options = {
 							marginBottom:"20px",
 							borderRadius:"20px",
 							paddingTop: "10%",
-							paddingRight: "15%",
-							paddingLeft: "15%",
+							paddingRight: "10%",
+							paddingLeft: "10%",
 							paddingBottom: "10%",
 							display: "block"});
+						$("#ligne").css({
+							backgroundColor : "#70839b",
+							marginRight:"auto",
+							marginLeft:"auto",
+							width : "50%",
+							height : "2px",
+							borderRadius : "100%",																	
+							marginTop: "5%"});
 						$("#nom").text(responseJson.denomination);
 						$("#prescription").html(responseJson.indicationsTherapeutiques).css("text-align","left");
 						$("#prix_titre").text("Prix en euros :");
 						$("#prix").text(responseJson.presentations[0].prix == null ? "libre." : responseJson.presentations[0].prix);
 						$("#taux_titre").text("Taux de remboursement :");
 						$("#taux").text(responseJson.presentations[0].tauxRemboursement.length == 0 ? "Non remboursé." : responseJson.presentations[0].tauxRemboursement);
-						$("#IR_titre").text("Indication de remboursement :");
-						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné." : responseJson.presentations[0].indicationsRemboursement);
-						$("#gene_titre").text("Générique(s) :");
+						$("#IR_titre").text("Indication de remboursement :").css({textAlign:"center", paddingTop: "20%"});
+						$("#indicremboursement").html(responseJson.presentations[0].indicationsRemboursement.length == 0 ? "Non renseigné." : responseJson.presentations[0].indicationsRemboursement).css({textAlign : "justify", textAlignLast:"center"});
+						$("#gene_titre").html("Générique(s) :" + "<ul>").css({textAlign:"center", paddingTop: "5%"});
 						if (responseJson.infosGenerique) {
 							var content = "";	
 							for (var i = 0; i < responseJson.infosGenerique.autresMedicamentsGroupe.length; i++) {
-								content += responseJson.infosGenerique.autresMedicamentsGroupe[i].denomination + "<br>";
+								content += "<li>"+responseJson.infosGenerique.autresMedicamentsGroupe[i].denomination + "</li>";
 							}
 							// console.log(content);
 							// $("#generique").html(content);
-							$("#generique").html(content.toLowerCase());
+							$("#generique").html(content.toLowerCase()).css( "text-align" , "justify") +"</ul>";
 						}else{
 							// console.log(content);
-							$("#generique").html(responseJson.infosGenerique == null ? "Aucun." : responseJson.infosGenerique);
+							$("#generique").html(responseJson.infosGenerique == null ? "Aucun." : responseJson.infosGenerique).css("text-align","center");
 						}
 					}
 			 });
