@@ -1578,12 +1578,9 @@ margin-top: 5px;
     width: 0;
   }
 
-  /* #geolocalisation{
-    opacity:0.75;
-    background-size:cover;
-    /* background-color:rgba(128, 128, 128, 0.466); */
-
-
+  #geolocalisation{
+    padding-bottom:5%;
+  }
   .titregeo{
     padding-top: 5%;
     /* background-color:#ddf9fd; */
@@ -1675,16 +1672,21 @@ margin-top: 5px;
   .markedpage{
     margin-top:70px!important;
 }
+    .infologo{
+        margin-top:45px!important;
+    }
 
   @media(max-width:577px){
     #logopage{
         font-size:70px;
-        margin-top:80px;
         margin-bottom:2%;
     }
 
     .markedpage{
         margin-top:100px!important;
+    }
+    .infologo{
+        margin-top:80px!important;
     }
   }
 
@@ -1719,6 +1721,7 @@ margin-top: 5px;
 
 .titre{
     text-transform:uppercase;
+    color:rgb(31, 29, 29);
 }
 
 h5{
