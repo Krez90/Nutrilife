@@ -47,7 +47,7 @@ var options = {
 							}
 							// console.log(content);
 							// $("#generique").html(content);
-							$("#generique").html(content.toLowerCase()).css( "text-align" , "justify") +"</ul>";
+							$("#generique").html(content.toLowerCase()).css( {textAlign :"justify", paddingLeft : "10%" }) +"</ul>";
 						}else{
 							// console.log(content);
 							$("#generique").html(responseJson.infosGenerique == null ? "Aucun." : responseJson.infosGenerique).css("text-align","center");
